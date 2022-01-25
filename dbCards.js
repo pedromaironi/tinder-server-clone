@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 const cardSchema = mongoose.Schema({
   name: String,
-  age: Number,
   description: String,
+  age: String,
   imgUrl: String,
 });
 
